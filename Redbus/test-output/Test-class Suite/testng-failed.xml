@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Test-class Suite]">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="selecteddriver" value="firefox"/>
+    <classes>
+      <class name="com.atmecs.Flight.Bookingsteps">
+        <methods>
+          <include name="booking" invocation-numbers="0"/>
+          <include name="select"/>
+          <include name="setBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.atmecs.Flight.Bookingsteps -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->
